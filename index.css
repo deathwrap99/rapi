@@ -22,26 +22,24 @@ header{
     justify-content: flex-end;
     background-color: var(--secondary-color);
 }
-
 .search{
-    background-color: transparent;
-    border: 2px solid var(--primary-color);
-    padding:0.5rem 1rem;
-    border-radius: 50px;
-    font-size: 1rem;
-    color:#fff;
-    font-family: inherit;
-}
+    margin-top: 13px;
+    border-color: purple;
+    border-radius: 15px;
+    width: 270px;
+    height: 25px;
+  }
+  .btn{
+    position: absolute;
+    bottom: 70px;
+    right: 100px;
+    display: flex;
+    justify-content: center;
 
-.search:focus{
-    outline:0;
-    background-color: var(--primary-color);
-}
-
-.search::placeholder{
-    color: #7378c5;
-}
-
+  }
+  .w{
+    margin-top: 5px;
+  }
 main{
     display:flex;
     flex-wrap: wrap;
@@ -282,7 +280,7 @@ main{
     gap: 30px;
     height: 60px;
     text-decoration: none;
-    top: 80px;
+    top: 50px;
 
   }
   
@@ -330,7 +328,7 @@ main{
     gap: 150px;
   }
   .search{
-    margin-top: 13px;
+    
     border-color: purple;
     border-radius: 15px;
     width: 270px;
@@ -342,7 +340,9 @@ main{
     top: -3px;
   }
   .but{
+    position: relative;
+    left: 400px;
     display: flex;
-    left: 0%;
+    
 
   }
